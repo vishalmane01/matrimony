@@ -1,0 +1,278 @@
+/*
+Template Name: Matrimonial
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+/*********************center_h****************/
+.carousel-caption{
+background-color: rgba(0,0,0,.4)!important;
+bottom:170px;
+left:0;
+color:#fff;
+width:40%;
+text-align:center;
+left:30%;
+padding:20px;
+ }
+.carousel-caption1{
+left:57%;
+ }
+.carousel-caption2{
+left:57%;
+ }
+.center_home .carousel-indicators{
+bottom:20px; 
+ }
+/*********************center_h_end****************/
+
+/*********************about_h****************/
+.social_tag li a{
+	border:1px solid #c78665;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	color: #c78665;
+	display: block;
+	text-align: center;
+	border-radius: 50%;
+	font-size: 18px;
+	transition: 0.3s;
+ }
+.social_tag li a:hover{
+	border:1px solid #c78665;
+	background:#c78665;
+	color:#fff;
+ }
+
+.about_hm2{
+top:0;
+left:-5%; 
+ }
+.about_hm3{
+bottom:0;
+right:-5%; 
+ }
+.about_hm4{
+bottom:40%;
+right:-5%; 
+ }
+/*********************about_h_end****************/
+
+
+/*********************attend****************/
+.attend_1m{
+padding:50px 50px;
+border-radius:50% 50% 0 0; 
+ }
+.attend_1m .form-control{
+border-top:0; 
+border-left:0; 
+border-right:0; 
+ }
+.attend_1m .form-select{
+border-top:0; 
+border-left:0; 
+border-right:0; 
+ }
+.attend_1l{
+padding-top:150px; 
+ }
+/*********************attend_end****************/
+
+/*********************bride****************/
+
+#bride .about_h1l {
+width:75%; 
+margin-top:12%;
+margin-left:12%;
+ }
+/*********************bride_end****************/
+
+
+
+@media screen and (max-width : 767px){
+.carousel-caption{
+padding:30px 15px 70px 15px;
+position:static!important;
+width:100%;
+background:#333!important;
+ }
+.carousel-caption1{
+left:0%;
+ }
+.carousel-caption2{
+left:0%;
+ }
+.center_home .carousel-indicators{
+bottom:15px; 
+ }
+.carousel-control-prev{
+ display:none;
+ }
+.carousel-control-next{
+ display:none;
+ }
+
+
+.center_home  p{
+text-align:left;
+font-size:14px;
+}
+.center_home  br{
+display:none;
+}
+.center_home .font_60{
+font-size:32px;
+}
+.center_home  .button{
+padding:10px 15px;
+}
+.about_hm2{
+display:none; 
+ }
+.about_hm3{
+display:none; 
+ }
+.about_hm4{
+display:none; 
+ }
+.about_h1r{
+text-align:center!important; 
+ }
+.about_h1r p{
+text-align:left; 
+ }
+.about_h1l {
+margin-top:15px;
+margin-bottom:15px; 
+ }
+.attend_1l {
+padding-top:0;
+}
+.attend_1m {
+    padding: 20px 15px;
+    border-radius:0;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.bride_1i{
+margin-top:15px;
+margin-bottom:15px; 
+ }
+.attend_1l{
+display:none;
+ }
+.bride_1i2n  h1{
+font-size:36px; 
+ }
+.bride_1i2n  h6{
+font-size:24px; 
+ }
+ }
+
+
+@media (min-width:576px) and (max-width:767px) {
+.carousel-caption{
+bottom:50px;
+ }
+ }
+ 
+@media (min-width:768px) and (max-width:991px) {
+.center_home img{
+min-height:800px; 
+ }
+.center_home .font_60{
+font-size:36px;
+}
+.about_hm2 img{
+width:100px;
+height:100px; 
+ }
+.about_hm3 img{
+width:100px;
+height:100px; 
+ }
+.about_hm4 img{
+width:100px;
+height:100px;
+ }
+.about_hm2 {
+    left:0;
+}
+.about_hm4 {
+    right:0;
+}
+.about_hm3 {
+    right:0;
+}
+.attend_1m {
+    padding: 20px 15px;
+}
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.center_home img{
+min-height:800px; 
+ }
+.about_hm2 img{
+width:130px;
+height:130px; 
+ }
+.about_hm3 img{
+width:130px;
+height:130px; 
+ }
+.about_hm4 img{
+width:130px;
+height:130px;
+ }
+.about_hm2 {
+    left:0;
+}
+.about_hm4 {
+    right:0;
+}
+.about_hm3 {
+    right:0;
+}
+ }
+@media (min-width:1201px) and (max-width:1280px) {
+.about_hm2 {
+    left:0;
+}
+.about_hm4 {
+    right:0;
+}
+.about_hm3 {
+    right:0;
+}
+.about_hm2 img{
+width:130px;
+height:130px; 
+ }
+.about_hm3 img{
+width:130px;
+height:130px; 
+ }
+.about_hm4 img{
+width:130px;
+height:130px;
+ }
+ }
+@media (min-width:1400px) and (max-width:2000px) {
+.about_hm2 {
+    left:0;
+}
+.about_hm4 {
+    right:0;
+}
+.about_hm3 {
+    right:0;
+}
+ }
+
+
+

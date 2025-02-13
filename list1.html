@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Matrimonial</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" >
+	 <link href="fonts/css/fontawesome.min.css" rel="stylesheet" >
+	<link href="fonts/css/brands.min.css" rel="stylesheet" />
+    <link href="fonts/css/solid.min.css" rel="stylesheet" />
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/list.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+
+	<!-- navbar -->
+	<section id="header">
+		<nav class="navbar navbar-expand-md navbar-light  p-0 pt-2 pb-2" id="navbar_sticky">
+		  <div class="container-xl">
+			<a class="p-0 navbar-brand fw-bold me-0 family_1 col_red" href="index.html"><i class="fa fa-heart me-1 col_brown"></i> Matrimonial<br>
+		<span class="family_2 fw-normal font_14 col_brown">Best Matrimony Website</span>
+		</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			   <ul class="navbar-nav mb-0 ms-auto">
+				<li class="nav-item">
+				  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+				</li>
+				
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Explore
+				  </a>
+				  <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+					<li><a class="dropdown-item" href="list.html"></i>  Marathi Shaadi</a></li>
+					<li><a class="dropdown-item" href="list1.html"></i>   Assamese  Shaadi</a></li>
+					<li><a class="dropdown-item" href="list.html"></i>  Bengali Shaadi</a></li>
+					<li><a class="dropdown-item" href="list1.html"></i>  Telugu Shaadi</a></li>
+					<li><a class="dropdown-item" href="list.html"></i>  Punjabi Shaadi</a></li>
+					<li><a class="dropdown-item" href="list1.html"></i>  Jain Shaadi</a></li>
+					<li><a class="dropdown-item" href="list.html"></i>  Kannada Shaadi</a></li>
+					<li><a class="dropdown-item border-0" href="list1.html.html"> </i>  Muslim Shaadi</a></li>
+				  </ul>
+				</li>
+				
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Profile
+				  </a>
+				  <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+					<li><a class="dropdown-item" href="list.html">  Profile 1</a></li>
+					<li><a class="dropdown-item" href="list1.html">   Profile 2</a></li>
+					<li><a class="dropdown-item" href="list_detail.html">   Profile Detail</a></li>
+					<li><a class="dropdown-item border-0" href="search.html"> Search Profile</a></li>
+				  </ul>
+				</li>
+		
+				
+			
+				
+				
+				
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Pages
+				  </a>
+				  <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+					<li><a class="dropdown-item" href="about.html"> About Us</a></li>
+					<li><a class="dropdown-item" href="services.html"> Services</a></li>
+					 <li><a class="dropdown-item" href="story.html"> Story</a></li>
+					  <li><a class="dropdown-item border-0" href="gallery.html"> Gallery</a></li>
+				  </ul>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="contact.html">Contact </a>
+				</li>
+			  </ul>
+			  <ul class="navbar-nav mb-0 ms-auto">
+			 <li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle dropdown_search nav_hide fs-5 lh-1" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					<i class="fa fa-search"></i>
+				  </a>
+				  <ul class="dropdown-menu drop_2 p-3" aria-labelledby="navbarDropdown">
+					<li>
+					  <div class="input-group">
+						<input type="text" class="form-control bg_light border-0 font_13" placeholder="Enter Keyword">
+						<span class="input-group-btn">
+							<button class="btn btn-primary bg_brown  p-3 px-4 border-0" type="button">
+								<i class="fa fa-search"></i> </button>
+						</span>
+				</div>
+					</li>
+				  </ul>
+				</li>
+				
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+		</section>
+
+<div class="center_main position-relative">
+<section id="center" class="pt-5 pb-5 center_o bg_light">
+ <div class="container-xl">
+  <div class="row center_o1 text-center">
+   <div class="col-md-12">
+     <h1 class="font_50">Profile List</h1>
+	 <span class="col_brown icon_dove fs-2"><i class="fa fa-dove"></i></span>
+	 <ul class="mt-3 mb-0">
+		    <li class="d-inline-block"> <a href="#">Home</a></li>
+			<li class="d-inline-block mx-2 text-muted">|</li>
+			 <li class="d-inline-block col_brown"> Profile List</li>
+		  </ul>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="center_top">
+	  <div class="container-xl">
+	   <div class="row">
+		<div class="col-md-12"></div>
+	   </div>
+	  </div>
+	 </section>
+
+   <section id="center_bottom">
+  <div class="container-xl">
+   <div class="row">
+    <div class="col-md-12"></div>
+   </div>
+  </div>
+ </section>
+</div>
+
+<section id="list_pg" class="list  pt-5 pb-4">
+   <div class="container-xl">
+	     <div class="row list_1">
+		    <div class="col-lg-3 col-md-4">
+			  <div class="list_1_left">
+			     <div class="list_1_left1">
+				  <h3>Filter Profiles</h3>
+		            <hr class="line mb-4">
+				   <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+   <h2 class="accordion-header" id="headingOne">
+     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+       <i class="bi bi-check-circle me-2 align-middle"></i> Country
+     </button>
+   </h2>
+   <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+     <div class="accordion-body">
+       <ul>
+	    <li><a href="list_detail.html"><i class="bi bi-chevron-right col_red me-1 align-middle"></i> India Matrimony</a></li>
+		 <li class="mt-2"><a href="list_detail.html"><i class="bi bi-chevron-right col_red me-1 align-middle"></i> China Matrimony</a></li>
+		  <li class="mt-2"><a href="list_detail.html"><i class="bi bi-chevron-right col_red me-1 align-middle"></i> Nepali Matrimony</a></li>
+		   <li class="mt-2"><a href="list_detail.html"><i class="bi bi-chevron-right col_red me-1 align-middle"></i> Germany Matrimony</a></li>
+		    <li class="mt-2"><a href="list_detail.html"><i class="bi bi-chevron-right col_red me-1 align-middle"></i> Pakistan Matrimony</a></li>
+			 <li class="mt-2"><a href="list_detail.html"><i class="bi bi-chevron-right col_red me-1 align-middle"></i> Bangladesh Matrimony</a></li>
+	   </ul>
+	   <span class="d-block mt-3"><a class="button_1 family_1 py-3 px-4 fw-bold" href="list_detail.html"> More Countries <i class="bi bi-chevron-right ms-1 align-middle"></i></a></span>
+     </div>
+   </div>
+  </div>
+   
+  <div class="accordion-item">
+   <h2 class="accordion-header" id="headingTwo">
+     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+       <i class="bi bi-check-circle me-2 align-middle"></i> Marrital Status
+     </button>
+   </h2>
+   <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+     <div class="accordion-body">
+        <ul>
+		 <li><a href="list_detail.html"><i class="bi bi-chevron-right col_red me-1 align-middle"></i> Widow Matrimony</a></li>
+		  <li class="mt-2"><a href="list_detail.html"><i class="bi bi-chevron-right col_red me-1 align-middle"></i> Divorcee matrimony</a></li>
+		   <li class="mt-2"><a href="list_detail.html"><i class="bi bi-chevron-right col_red me-1 align-middle"></i>  Marriage Matrimony</a></li>
+	   </ul>
+	   <span class="d-block mt-3"><a class="button_1 family_1 py-3 px-4 fw-bold" href="list_detail.html"> More Marital <i class="bi bi-chevron-right ms-1 align-middle"></i></a></span>
+     </div>
+   </div>
+ </div>
+  
+  <div class="accordion-item">
+   <h2 class="accordion-header" id="headingThree">
+     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+       <i class="bi bi-check-circle me-2 align-middle"></i> Religion
+     </button>
+   </h2>
+   <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+     <div class="accordion-body">
+        <ul>
+		 <li><a href="list_detail.html"><i class="bi bi-chevron-right col_red me-1 align-middle"></i> Christian Matrimony</a></li>
+		  <li class="mt-2"><a href="list_detail.html"><i class="bi bi-chevron-right col_red me-1 align-middle"></i> Hindu Matrimony</a></li>
+		   <li class="mt-2"><a href="list_detail.html"><i class="bi bi-chevron-right col_red me-1 align-middle"></i> Muslim Matrimony</a></li>
+		    <li class="mt-2"><a href="list_detail.html"><i class="bi bi-chevron-right col_red me-1 align-middle"></i> Buddhist Matrimony</a></li>
+			 <li class="mt-2"><a href="list_detail.html"><i class="bi bi-chevron-right col_red me-1 align-middle"></i> Sikh Matrimony</a></li>
+			  <li class="mt-2"><a href="list_detail.html"><i class="bi bi-chevron-right col_red me-1 align-middle"></i> Jain Matrimony</a></li>
+	   </ul>
+	   <span class="d-block mt-3"><a class="button_1 family_1 py-3 px-4 fw-bold" href="list_detail.html"> More Religions <i class="bi bi-chevron-right ms-1 align-middle"></i></a></span>
+     </div>
+   </div>
+ </div>
+
+ 
+</div>
+				 </div>
+				  <h3 class="mt-4">Horoscope</h3>
+		            <hr class="line mb-4">
+				   <div class="list_1_left2 mt-4 border_light list_1_left2o">
+				   
+				     <h6 class="mb-0 border-bottom"><a class="d-block" href="list_detail.html"><i class="bi bi-caret-right d-inline-block p-3 px-4 bg_light"></i> <span class="d-inline-block px-3">Kundali Matching</span></a></h6>
+		<h6 class="mb-0 border-bottom"><a class="d-block" href="list_detail.html"><i class="bi bi-caret-right d-inline-block p-3 px-4 bg_light"></i> <span class="d-inline-block px-3"> Tamil Kundali </span></a></h6>
+		<h6 class="mb-0 border-bottom"><a class="d-block" href="list_detail.html"><i class="bi bi-caret-right d-inline-block p-3 px-4 bg_light"></i> <span class="d-inline-block px-3"> Telugu Kundali</span></a></h6>
+		<h6 class="mb-0 border-bottom"><a class="d-block" href="list_detail.html"><i class="bi bi-caret-right d-inline-block p-3 px-4 bg_light"></i> <span class="d-inline-block px-3">Malayalam Kundali</span></a></h6>
+		<h6 class="mb-0 border-bottom"><a class="d-block" href="list_detail.html"><i class="bi bi-caret-right d-inline-block p-3 px-4 bg_light"></i> <span class="d-inline-block px-3">Marathi Kundali</span></a></h6>
+		<h6 class="mb-0 border-bottom"><a class="d-block" href="list_detail.html"><i class="bi bi-caret-right d-inline-block p-3 px-4 bg_light"></i> <span class="d-inline-block px-3">Gujarati Kundali</span></a></h6>
+		<h6 class="mb-0 border-bottom"><a class="d-block" href="list_detail.html"><i class="bi bi-caret-right d-inline-block p-3 px-4 bg_light"></i> <span class="d-inline-block px-3">Kannada Kundali</span></a></h6>
+		<h6 class="mb-0 border-bottom"><a class="d-block" href="list_detail.html"><i class="bi bi-caret-right d-inline-block p-3 px-4 bg_light"></i> <span class="d-inline-block px-3"> Bihari Kundali</span></a></h6>
+		<h6 class="mb-0"><a class="d-block" href="list_detail.html"><i class="bi bi-caret-right d-inline-block p-3 px-4 bg_light"></i> <span class="d-inline-block px-3">Bengali Kundali</span></a></h6>
+				   </div>
+
+				   <div class="list_1_left2 mt-4">
+				     <h3>Our Services</h3>
+		            <hr class="line mb-4">
+					<h6 class="mb-0"><i class="bi bi-star-fill col_red me-1"></i> <a href="list_detail.html">Marathi Shaadi <span class="float-end family_2 bg_brown text-white p-1 d-inline-block font_14 px-2 lh-1">(09)</span></a></h6><hr class="mb-3 mt-3">
+					<h6 class="mb-0"><i class="bi bi-star-fill col_red me-1"></i> <a href="list_detail.html">Assamese Shaadi  <span class="float-end family_2 bg_brown text-white p-1 d-inline-block font_14 px-2 lh-1">(07)</span></a></h6><hr class="mb-3 mt-3">
+						<h6 class="mb-0"><i class="bi bi-star-fill col_red me-1"></i> <a href="list_detail.html">Bengali Shaadi  <span class="float-end family_2 bg_brown text-white p-1 d-inline-block font_14 px-2 lh-1">(13)</span></a></h6><hr class="mb-3 mt-3">
+							<h6 class="mb-0"><i class="bi bi-star-fill col_red me-1"></i> <a href="list_detail.html">Hindi Shaadi <span class="float-end family_2 bg_brown text-white font_14 p-1 d-inline-block px-2 lh-1">(11)</span></a></h6><hr class="mb-3 mt-3">
+								<h6 class="mb-0"><i class="bi bi-star-fill col_red me-1"></i> <a href="list_detail.html">Jain Shaadi <span class="float-end family_2 bg_brown text-white font_14 p-1 d-inline-block px-2 lh-1">(17)</span></a></h6><hr class="mb-3 mt-3">
+									<h6 class="mb-0"><i class="bi bi-star-fill col_red me-1"></i> <a href="list_detail.html">Kannada Shaadi <span class="float-end family_2 bg_brown text-white font_14 p-1 d-inline-block px-2 lh-1">(19)</span></a></h6><hr class="mb-3 mt-3">
+										<h6 class="mb-0"><i class="bi bi-star-fill col_red me-1"></i> <a href="list_detail.html">Telugu Shaadi   <span class="float-end family_2 font_14 bg_brown text-white p-1 d-inline-block px-2 lh-1">(08)</span></a></h6>
+				   </div>
+				   
+
+			  </div>
+			</div>
+			<div class="col-lg-9 col-md-8">
+			  <div class="list_pgo1_left list_1_right2 ">
+		   <ul class="nav nav-tabs mb-3  flex-wrap  border-0 tab_click tab_click_o">
+						<li class="nav-item">
+						<a href="#profile1" data-bs-toggle="tab" aria-expanded="true" class="nav-link active">
+						<span class="d-md-block">BRIDES</span>
+						</a>
+						</li>
+						
+						<li class="nav-item">
+						<a href="#profile2" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+						<span class="d-md-block">GROOMS</span>
+						</a>
+						</li>
+					</ul>
+			<div class="tab-content mt-4">
+
+<!-- Bride -->
+
+					<div class="tab-pane active" id="profile1">
+                       <div class="row row-cols-1 row-cols-lg-2 row-cols-md-1 list_pgo1_left1">
+			  <div class="col">
+			     <div class="list_pgo1_left1_left border_light">
+				   <span class="bg_brown text-white font_14 py-2 px-3 d-block">PROFILE ID : U43CFSM67</span>
+				   <ul class="px-3 mt-3">
+				    <li class="d-flex">
+					 <img src="img/55.jpg" width="175" class="me-3" alt="abc">
+					 <span class="flex-column font_14">
+					  <span>26 Years, 5' 7" , Christian, Protestant, MBA/PGDCA, Rs. 16 - 22 Lakh, Software</span>
+					  <b class="d-block mt-2 fs-6 col_brown mb-2">CONTACT NOW:</b>
+					  <span class="d-block mb-2">Ne Pri Audiam Urbanitas Accommodare.Per Ex Facer Ornatus Delenit.</span>
+					 </span>
+					</li>
+				   </ul>
+				   <p class="px-3">Smart, Intelligent, well mannered and humble boy... <a class="col_brown" href="list_detail.html">read more</a></p>
+				 </div>
+			  </div>
+			  <div class="col">
+			     <div class="list_pgo1_left1_left border_light">
+				   <span class="bg_brown text-white font_14 py-2 px-3 d-block">PROFILE ID : V26MFST61</span>
+				   <ul class="px-3 mt-3">
+				    <li class="d-flex">
+					 <img src="img/56.jpg" width="175" class="me-3" alt="abc">
+					 <span class="flex-column font_14">
+					  <span>27 Years, 5' 6" , Christian, Protestant, BBA/PGDCA, Rs. 12 - 18 Lakh, Software</span>
+					  <b class="d-block mt-2 fs-6 col_brown mb-2">CONTACT NOW:</b>
+					  <span class="d-block mb-2">Ne Pri Audiam Urbanitas Accommodare.Per Ex Facer Ornatus Delenit.</span>
+					 </span>
+					</li>
+				   </ul>
+				   <p class="px-3">Smart, Intelligent, well mannered and humble boy... <a class="col_brown" href="list_detail.html">read more</a></p>
+				 </div>
+			  </div>
+			</div>
+			           <div class="row row-cols-1 row-cols-lg-2 row-cols-md-1 list_pgo1_left1 mt-4">
+			  <div class="col">
+			     <div class="list_pgo1_left1_left border_light">
+				   <span class="bg_brown text-white font_14 py-2 px-3 d-block">PROFILE ID : U43CFSM67</span>
+				   <ul class="px-3 mt-3">
+				    <li class="d-flex">
+					 <img src="img/57.jpg" width="175" class="me-3" alt="abc">
+					 <span class="flex-column font_14">
+					  <span>26 Years, 5' 7" , Christian, Protestant, MBA/PGDCA, Rs. 16 - 22 Lakh, Software</span>
+					  <b class="d-block mt-2 fs-6 col_brown mb-2">CONTACT NOW:</b>
+					  <span class="d-block mb-2">Ne Pri Audiam Urbanitas Accommodare.Per Ex Facer Ornatus Delenit.</span>
+					 </span>
+					</li>
+				   </ul>
+				   <p class="px-3">Smart, Intelligent, well mannered and humble boy... <a class="col_brown" href="list_detail.html">read more</a></p>
+				 </div>
+			  </div>
+			  <div class="col">
+			     <div class="list_pgo1_left1_left border_light">
+				   <span class="bg_brown text-white font_14 py-2 px-3 d-block">PROFILE ID : V26MFST61</span>
+				   <ul class="px-3 mt-3">
+				    <li class="d-flex">
+					 <img src="img/58.jpg" width="175" class="me-3" alt="abc">
+					 <span class="flex-column font_14">
+					  <span>27 Years, 5' 6" , Christian, Protestant, BBA/PGDCA, Rs. 12 - 18 Lakh, Software</span>
+					  <b class="d-block mt-2 fs-6 col_brown mb-2">CONTACT NOW:</b>
+					  <span class="d-block mb-2">Ne Pri Audiam Urbanitas Accommodare.Per Ex Facer Ornatus Delenit.</span>
+					 </span>
+					</li>
+				   </ul>
+				   <p class="px-3">Smart, Intelligent, well mannered and humble boy... <a class="col_brown" href="list_detail.html">read more</a></p>
+				 </div>
+			  </div>
+			</div>
+			            <div class="row row-cols-1 row-cols-lg-2 row-cols-md-1 list_pgo1_left1 mt-4">
+			  <div class="col">
+			     <div class="list_pgo1_left1_left border_light">
+				   <span class="bg_brown text-white font_14 py-2 px-3 d-block">PROFILE ID : U43CFSM67</span>
+				   <ul class="px-3 mt-3">
+				    <li class="d-flex">
+					 <img src="img/63.jpg" width="175" class="me-3" alt="abc">
+					 <span class="flex-column font_14">
+					  <span>26 Years, 5' 7" , Christian, Protestant, MBA/PGDCA, Rs. 16 - 22 Lakh, Software</span>
+					  <b class="d-block mt-2 fs-6 col_brown mb-2">CONTACT NOW:</b>
+					  <span class="d-block mb-2">Ne Pri Audiam Urbanitas Accommodare.Per Ex Facer Ornatus Delenit.</span>
+					 </span>
+					</li>
+				   </ul>
+				   <p class="px-3">Smart, Intelligent, well mannered and humble boy... <a class="col_brown" href="list_detail.html">read more</a></p>
+				 </div>
+			  </div>
+			  <div class="col">
+			     <div class="list_pgo1_left1_left border_light">
+				   <span class="bg_brown text-white font_14 py-2 px-3 d-block">PROFILE ID : V26MFST61</span>
+				   <ul class="px-3 mt-3">
+				    <li class="d-flex">
+					 <img src="img/64.jpg" width="175" class="me-3" alt="abc">
+					 <span class="flex-column font_14">
+					  <span>27 Years, 5' 6" , Christian, Protestant, BBA/PGDCA, Rs. 12 - 18 Lakh, Software</span>
+					  <b class="d-block mt-2 fs-6 col_brown mb-2">CONTACT NOW:</b>
+					  <span class="d-block mb-2">Ne Pri Audiam Urbanitas Accommodare.Per Ex Facer Ornatus Delenit.</span>
+					 </span>
+					</li>
+				   </ul>
+				   <p class="px-3">Smart, Intelligent, well mannered and humble boy... <a class="col_brown" href="list_detail.html">read more</a></p>
+				 </div>
+			  </div>
+			</div>
+			            <div class="row row-cols-1 row-cols-lg-2 row-cols-md-1 list_pgo1_left1 mt-4">
+			  <div class="col">
+			     <div class="list_pgo1_left1_left border_light">
+				   <span class="bg_brown text-white font_14 py-2 px-3 d-block">PROFILE ID : U43CFSM67</span>
+				   <ul class="px-3 mt-3">
+				    <li class="d-flex">
+					 <img src="img/55.jpg" width="175" class="me-3" alt="abc">
+					 <span class="flex-column font_14">
+					  <span>26 Years, 5' 7" , Christian, Protestant, MBA/PGDCA, Rs. 16 - 22 Lakh, Software</span>
+					  <b class="d-block mt-2 fs-6 col_brown mb-2">CONTACT NOW:</b>
+					  <span class="d-block mb-2">Ne Pri Audiam Urbanitas Accommodare.Per Ex Facer Ornatus Delenit.</span>
+					 </span>
+					</li>
+				   </ul>
+				   <p class="px-3">Smart, Intelligent, well mannered and humble boy... <a class="col_brown" href="list_detail.html">read more</a></p>
+				 </div>
+			  </div>
+			  <div class="col">
+			     <div class="list_pgo1_left1_left border_light">
+				   <span class="bg_brown text-white font_14 py-2 px-3 d-block">PROFILE ID : V26MFST61</span>
+				   <ul class="px-3 mt-3">
+				    <li class="d-flex">
+					 <img src="img/56.jpg" width="175" class="me-3" alt="abc">
+					 <span class="flex-column font_14">
+					  <span>27 Years, 5' 6" , Christian, Protestant, BBA/PGDCA, Rs. 12 - 18 Lakh, Software</span>
+					  <b class="d-block mt-2 fs-6 col_brown mb-2">CONTACT NOW:</b>
+					  <span class="d-block mb-2">Ne Pri Audiam Urbanitas Accommodare.Per Ex Facer Ornatus Delenit.</span>
+					 </span>
+					</li>
+				   </ul>
+				   <p class="px-3">Smart, Intelligent, well mannered and humble boy... <a class="col_brown" href="list_detail.html">read more</a></p>
+				 </div>
+			  </div>
+			</div>
+			            <div class="row row-cols-1 row-cols-lg-2 row-cols-md-1 list_pgo1_left1 mt-4">
+			  <div class="col">
+			     <div class="list_pgo1_left1_left border_light">
+				   <span class="bg_brown text-white font_14 py-2 px-3 d-block">PROFILE ID : U43CFSM67</span>
+				   <ul class="px-3 mt-3">
+				    <li class="d-flex">
+					 <img src="img/57.jpg" width="175" class="me-3" alt="abc">
+					 <span class="flex-column font_14">
+					  <span>26 Years, 5' 7" , Christian, Protestant, MBA/PGDCA, Rs. 16 - 22 Lakh, Software</span>
+					  <b class="d-block mt-2 fs-6 col_brown mb-2">CONTACT NOW:</b>
+					  <span class="d-block mb-2">Ne Pri Audiam Urbanitas Accommodare.Per Ex Facer Ornatus Delenit.</span>
+					 </span>
+					</li>
+				   </ul>
+				   <p class="px-3">Smart, Intelligent, well mannered and humble boy... <a class="col_brown" href="list_detail.html">read more</a></p>
+				 </div>
+			  </div>
+			  <div class="col">
+			     <div class="list_pgo1_left1_left border_light">
+				   <span class="bg_brown text-white font_14 py-2 px-3 d-block">PROFILE ID : V26MFST61</span>
+				   <ul class="px-3 mt-3">
+				    <li class="d-flex">
+					 <img src="img/58.jpg" width="175" class="me-3" alt="abc">
+					 <span class="flex-column font_14">
+					  <span>27 Years, 5' 6" , Christian, Protestant, BBA/PGDCA, Rs. 12 - 18 Lakh, Software</span>
+					  <b class="d-block mt-2 fs-6 col_brown mb-2">CONTACT NOW:</b>
+					  <span class="d-block mb-2">Ne Pri Audiam Urbanitas Accommodare.Per Ex Facer Ornatus Delenit.</span>
+					 </span>
+					</li>
+				   </ul>
+				   <p class="px-3">Smart, Intelligent, well mannered and humble boy... <a class="col_brown" href="list_detail.html">read more</a></p>
+				 </div>
+			  </div>
+			</div>
+					</div>
+					
+<!-- Groom -->
+					<div class="tab-pane" id="profile2">
+	                      <div class="row row-cols-1 row-cols-lg-2 row-cols-md-1 list_pgo1_left1">
+			  <div class="col">
+			     <div class="list_pgo1_left1_left border_light">
+				   <span class="bg_brown text-white font_14 py-2 px-3 d-block">PROFILE ID : W23CFSM69</span>
+				   <ul class="px-3 mt-3">
+				    <li class="d-flex">
+					 <img src="img/65.jpg" width="175" class="me-3" alt="abc">
+					 <span class="flex-column font_14">
+					  <span>29 Years, 5' 10" , Hindu, Protestant, BCA/PGDCA, Rs. 19 - 32 Lakh, Software</span>
+					  <b class="d-block mt-2 fs-6 col_brown mb-2">CONTACT NOW:</b>
+					  <span class="d-block mb-2">Ne Pri Audiam Urbanitas Accommodare.Per Ex Facer Ornatus Delenit.</span>
+					 </span>
+					</li>
+				   </ul>
+				   <p class="px-3">Smart, Intelligent, well mannered and humble boy... <a class="col_brown" href="list_detail.html">read more</a></p>
+				 </div>
+			  </div>
+			  <div class="col">
+			     <div class="list_pgo1_left1_left border_light">
+				   <span class="bg_brown text-white font_14 py-2 px-3 d-block">PROFILE ID : Z36MFST67</span>
+				   <ul class="px-3 mt-3">
+				    <li class="d-flex">
+					 <img src="img/66.jpg" width="175" class="me-3" alt="abc">
+					 <span class="flex-column font_14">
+					  <span>25 Years, 6' 1" , Christian, Protestant, CA/PGDCA, Rs. 11 - 19 Lakh, Software</span>
+					  <b class="d-block mt-2 fs-6 col_brown mb-2">CONTACT NOW:</b>
+					  <span class="d-block mb-2">Ne Pri Audiam Urbanitas Accommodare.Per Ex Facer Ornatus Delenit.</span>
+					 </span>
+					</li>
+				   </ul>
+				   <p class="px-3">Smart, Intelligent, well mannered and humble boy... <a class="col_brown" href="list_detail.html">read more</a></p>
+				 </div>
+			  </div>
+			</div>
+			              <div class="row row-cols-1 row-cols-lg-2 row-cols-md-1 list_pgo1_left1 mt-4">
+			  <div class="col">
+			     <div class="list_pgo1_left1_left border_light">
+				   <span class="bg_brown text-white font_14 py-2 px-3 d-block">PROFILE ID : W23CFSM69</span>
+				   <ul class="px-3 mt-3">
+				    <li class="d-flex">
+					 <img src="img/59.jpg" width="175" class="me-3" alt="abc">
+					 <span class="flex-column font_14">
+					  <span>29 Years, 5' 10" , Hindu, Protestant, BCA/PGDCA, Rs. 19 - 32 Lakh, Software</span>
+					  <b class="d-block mt-2 fs-6 col_brown mb-2">CONTACT NOW:</b>
+					  <span class="d-block mb-2">Ne Pri Audiam Urbanitas Accommodare.Per Ex Facer Ornatus Delenit.</span>
+					 </span>
+					</li>
+				   </ul>
+				   <p class="px-3">Smart, Intelligent, well mannered and humble boy... <a class="col_brown" href="list_detail.html">read more</a></p>
+				 </div>
+			  </div>
+			  <div class="col">
+			     <div class="list_pgo1_left1_left border_light">
+				   <span class="bg_brown text-white font_14 py-2 px-3 d-block">PROFILE ID : Z36MFST67</span>
+				   <ul class="px-3 mt-3">
+				    <li class="d-flex">
+					 <img src="img/61.jpg" width="175" class="me-3" alt="abc">
+					 <span class="flex-column font_14">
+					  <span>25 Years, 6' 1" , Christian, Protestant, CA/PGDCA, Rs. 11 - 19 Lakh, Software</span>
+					  <b class="d-block mt-2 fs-6 col_brown mb-2">CONTACT NOW:</b>
+					  <span class="d-block mb-2">Ne Pri Audiam Urbanitas Accommodare.Per Ex Facer Ornatus Delenit.</span>
+					 </span>
+					</li>
+				   </ul>
+				   <p class="px-3">Smart, Intelligent, well mannered and humble boy... <a class="col_brown" href="list_detail.html">read more</a></p>
+				 </div>
+			  </div>
+			</div>
+			              <div class="row row-cols-1 row-cols-lg-2 row-cols-md-1 list_pgo1_left1 mt-4">
+			  <div class="col">
+			     <div class="list_pgo1_left1_left border_light">
+				   <span class="bg_brown text-white font_14 py-2 px-3 d-block">PROFILE ID : W23CFSM69</span>
+				   <ul class="px-3 mt-3">
+				    <li class="d-flex">
+					 <img src="img/60.jpg" width="175" class="me-3" alt="abc">
+					 <span class="flex-column font_14">
+					  <span>29 Years, 5' 10" , Hindu, Protestant, BCA/PGDCA, Rs. 19 - 32 Lakh, Software</span>
+					  <b class="d-block mt-2 fs-6 col_brown mb-2">CONTACT NOW:</b>
+					  <span class="d-block mb-2">Ne Pri Audiam Urbanitas Accommodare.Per Ex Facer Ornatus Delenit.</span>
+					 </span>
+					</li>
+				   </ul>
+				   <p class="px-3">Smart, Intelligent, well mannered and humble boy... <a class="col_brown" href="list_detail.html">read more</a></p>
+				 </div>
+			  </div>
+			  <div class="col">
+			     <div class="list_pgo1_left1_left border_light">
+				   <span class="bg_brown text-white font_14 py-2 px-3 d-block">PROFILE ID : Z36MFST67</span>
+				   <ul class="px-3 mt-3">
+				    <li class="d-flex">
+					 <img src="img/59.jpg" width="175" class="me-3" alt="abc">
+					 <span class="flex-column font_14">
+					  <span>25 Years, 6' 1" , Christian, Protestant, CA/PGDCA, Rs. 11 - 19 Lakh, Software</span>
+					  <b class="d-block mt-2 fs-6 col_brown mb-2">CONTACT NOW:</b>
+					  <span class="d-block mb-2">Ne Pri Audiam Urbanitas Accommodare.Per Ex Facer Ornatus Delenit.</span>
+					 </span>
+					</li>
+				   </ul>
+				   <p class="px-3">Smart, Intelligent, well mannered and humble boy... <a class="col_brown" href="list_detail.html">read more</a></p>
+				 </div>
+			  </div>
+			</div>
+			              <div class="row row-cols-1 row-cols-lg-2 row-cols-md-1 list_pgo1_left1 mt-4">
+			  <div class="col">
+			     <div class="list_pgo1_left1_left border_light">
+				   <span class="bg_brown text-white font_14 py-2 px-3 d-block">PROFILE ID : W23CFSM69</span>
+				   <ul class="px-3 mt-3">
+				    <li class="d-flex">
+					 <img src="img/65.jpg" width="175" class="me-3" alt="abc">
+					 <span class="flex-column font_14">
+					  <span>29 Years, 5' 10" , Hindu, Protestant, BCA/PGDCA, Rs. 19 - 32 Lakh, Software</span>
+					  <b class="d-block mt-2 fs-6 col_brown mb-2">CONTACT NOW:</b>
+					  <span class="d-block mb-2">Ne Pri Audiam Urbanitas Accommodare.Per Ex Facer Ornatus Delenit.</span>
+					 </span>
+					</li>
+				   </ul>
+				   <p class="px-3">Smart, Intelligent, well mannered and humble boy... <a class="col_brown" href="list_detail.html">read more</a></p>
+				 </div>
+			  </div>
+			  <div class="col">
+			     <div class="list_pgo1_left1_left border_light">
+				   <span class="bg_brown text-white font_14 py-2 px-3 d-block">PROFILE ID : Z36MFST67</span>
+				   <ul class="px-3 mt-3">
+				    <li class="d-flex">
+					 <img src="img/66.jpg" width="175" class="me-3" alt="abc">
+					 <span class="flex-column font_14">
+					  <span>25 Years, 6' 1" , Christian, Protestant, CA/PGDCA, Rs. 11 - 19 Lakh, Software</span>
+					  <b class="d-block mt-2 fs-6 col_brown mb-2">CONTACT NOW:</b>
+					  <span class="d-block mb-2">Ne Pri Audiam Urbanitas Accommodare.Per Ex Facer Ornatus Delenit.</span>
+					 </span>
+					</li>
+				   </ul>
+				   <p class="px-3">Smart, Intelligent, well mannered and humble boy... <a class="col_brown" href="list_detail.html">read more</a></p>
+				 </div>
+			  </div>
+			</div>
+			              <div class="row row-cols-1 row-cols-lg-2 row-cols-md-1 list_pgo1_left1 mt-4">
+			  <div class="col">
+			     <div class="list_pgo1_left1_left border_light">
+				   <span class="bg_brown text-white font_14 py-2 px-3 d-block">PROFILE ID : W23CFSM69</span>
+				   <ul class="px-3 mt-3">
+				    <li class="d-flex">
+					 <img src="img/62.jpg" width="175" class="me-3" alt="abc">
+					 <span class="flex-column font_14">
+					  <span>29 Years, 5' 10" , Hindu, Protestant, BCA/PGDCA, Rs. 19 - 32 Lakh, Software</span>
+					  <b class="d-block mt-2 fs-6 col_brown mb-2">CONTACT NOW:</b>
+					  <span class="d-block mb-2">Ne Pri Audiam Urbanitas Accommodare.Per Ex Facer Ornatus Delenit.</span>
+					 </span>
+					</li>
+				   </ul>
+				   <p class="px-3">Smart, Intelligent, well mannered and humble boy... <a class="col_brown" href="list_detail.html">read more</a></p>
+				 </div>
+			  </div>
+			  <div class="col">
+			     <div class="list_pgo1_left1_left border_light">
+				   <span class="bg_brown text-white font_14 py-2 px-3 d-block">PROFILE ID : Z36MFST67</span>
+				   <ul class="px-3 mt-3">
+				    <li class="d-flex">
+					 <img src="img/61.jpg" width="175" class="me-3" alt="abc">
+					 <span class="flex-column font_14">
+					  <span>25 Years, 6' 1" , Christian, Protestant, CA/PGDCA, Rs. 11 - 19 Lakh, Software</span>
+					  <b class="d-block mt-2 fs-6 col_brown mb-2">CONTACT NOW:</b>
+					  <span class="d-block mb-2">Ne Pri Audiam Urbanitas Accommodare.Per Ex Facer Ornatus Delenit.</span>
+					 </span>
+					</li>
+				   </ul>
+				   <p class="px-3">Smart, Intelligent, well mannered and humble boy... <a class="col_brown" href="list_detail.html">read more</a></p>
+				 </div>
+			  </div>
+			</div>
+					</div>
+		
+</div>
+		    <div class="paging">
+		     <ul class="mb-0  paginate text-center  mt-4">
+           <li class="d-inline-block mt-1 mb-1"><a class="border d-block" href="list_detail.html"><i class="bi bi-chevron-left"></i> </a></li>
+          <li class="d-inline-block mt-1 mb-1"><a class="border d-block active" href="list_detail.html">1</a></li>
+          <li class="d-inline-block mt-1 mb-1"><a class="border d-block" href="list_detail.html">2</a></li>
+          <li class="d-inline-block mt-1 mb-1"><a class="border d-block" href="list_detail.html">3</a></li>
+          <li class="d-inline-block mt-1 mb-1"><a class="border d-block" href="list_detail.html">4</a></li>
+          <li class="d-inline-block mt-1 mb-1"><a class="border d-block" href="list_detail.html">5</a></li>
+          <li class="d-inline-block mt-1 mb-1"><a class="border d-block" href="list_detail.html">6</a></li>
+          <li class="d-inline-block mt-1 mb-1"><a class="border d-block" href="list_detail.html"><i class="bi bi-chevron-right"></i></a></li>
+         </ul>
+		   </div>
+		  </div>
+			</div>
+		 </div>
+	   </div>
+ </section>
+
+
+ <!-- footer -->
+ <section id="footer" class="p_3 px_4">
+	<div class="container-fluid">
+	  <div class="footer_m bg_light p-4">
+		<div class="footer_1 row">
+		<div class="col-md-3">
+		 <div class="footer_1i">
+		   <h1 class="mb-3"><a class="family_1" href="index.html"><i class="fa fa-heart me-1 col_brown"></i> Matrimonial<br>
+   <span class="family_2 fw-normal font_14 col_brown">Best Matrimony Website</span>
+   </a></h1>
+   <p class="fst-italic"><br></p>
+   <ul class="mb-0"> 
+   <li><a href="#"><i class="fa fa-envelope col_brown me-1 align-middle"></i> info@gmail.com</a></li>
+   <li class="mt-3"><a href="#"><i class="fa fa-phone col_brown me-1 align-middle"></i> +(123) 456 - 7890 - 456 - 7890</a></li>
+   <li class="mt-3"><i class="fa fa-home col_brown me-1 align-middle"></i> 31 X 42nd Street London</li>
+   </ul>
+		 </div>
+		</div>
+		 <div class=" ms-auto col-md-3">
+		 <div class="footer_1i">
+		  <h5 class="mt-3 mb-4">WEDDING PLANNER FAQS</h5>
+		  <ul class="mb-0">
+			<li><a href="#">Why Hire a Planner?</a></li>
+			 <li class="mt-3"><a href="#">How Can I Make An Appointment?</a></li>
+			 <li class="mt-3"><a href="#">How to Choose a Venue</a></li>
+			 <li class="mt-3"><a href="#">Event Catalogue</a></li>
+			 <li class="mt-3"><a href="#">Payment Types You Accept</a></li>
+		  </ul>
+		 </div>
+		</div>
+		<div class=" ms-auto  col-md-3">
+		 <div class="footer_1i">
+		  <h5 class="mt-3 mb-4">ABOUT US</h5>
+		  <h6 class="family_2 font_14 fw-normal">BRIDESMAIDS</h6>
+		  <h6 class="fw-normal"><a class="col_brown" href="#"><i class="fa fa-circle me-1 font_8 align-middle"></i> November 22, 2017</a></h6>
+		   <h6 class="family_2 font_14 fw-normal mt-3">GROOMSMEN</h6>
+		  <h6 class="fw-normal"><a class="col_brown" href="#"><i class="fa fa-circle me-1 font_8 align-middle"></i> November 26, 2017</a></h6>
+		  <h6 class="family_2 font_14 fw-normal mt-3">JEWELRY</h6>
+		  <h6 class="fw-normal mb-0"><a class="col_brown" href="#"><i class="fa fa-circle me-1 font_8 align-middle"></i> November 29, 2017</a></h6>
+		 </div>
+		</div>
+	   
+		  </div>
+		 </div>
+		</div>
+	  </div><hr class="mt-4 mb-4">
+	  <div class="footer_2 row">
+		<div class="col-md-8">
+		 <div class="footer_2l">
+		   <p class="mb-0">© 2025 Your Website Name. All Rights Reserved | Design by <a class="col_brown fw-bold" href="http://www.templateonweb.com">INTROO</a></p>
+		 </div>
+		</div>
+	   <div class="col-md-4">
+		 <div class="footer_2r text-end">
+		  <ul class="text-uppercase font_13 mb-0">
+			   <li class="d-inline-block"><a href="#"> Facebook</a></li>
+			   <li class="d-inline-block mx-2 text-muted">|</li>
+				<li class="d-inline-block"><a href="#"> Twitter</a></li>
+				<li class="d-inline-block mx-2 text-muted">|</li>
+				<li class="d-inline-block"><a href="#"> Pinterest</a></li>
+				<li class="d-inline-block mx-2 text-muted">|</li>
+				<li class="d-inline-block"><a href="#"> Instagram</a></li>
+			 </ul>
+		 </div>
+		</div>
+	  </div>
+	  </div>
+	 </div>
+	</div>
+   </section>
+
+
+
+<script src="js/common.js"></script>
+
+</body>
+
+
+</html>
